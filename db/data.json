@@ -1,0 +1,88 @@
+{
+    "invoices": [
+        {
+            "id": 1,
+            "reference": "0001",
+            "status": "PENDING",
+            "taxPercentage": 20,
+            "recipient": {
+                "name": "Naomi Uziel",
+                "address": "10 Downing Street\nLondon\nUnited Kingdom"
+            },
+            "lineItems": [
+                {
+                    "uuid": "8916cae5-bd6d-4b5b-9914-65a8e31a7490",
+                    "item": "Logo design",
+                    "unitPrice": 380,
+                    "quantity": 1
+                },
+                {
+                    "uuid": "0e9d3daf-be2d-43fe-98c8-63bc4086b174",
+                    "item": "Software development consultancy (1hr)",
+                    "unitPrice": 60,
+                    "quantity": 8
+                },
+                {
+                    "uuid": "fbe5912f-66a7-4849-8ee7-0b698256f975",
+                    "item": "Web hosting 2023",
+                    "unitPrice": 320,
+                    "quantity": 1
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "reference": "0002",
+            "status": "PAID",
+            "taxPercentage": 20,
+            "recipient": {
+                "name": "John Doe",
+                "address": "10 Downing Street\nLondon\nUnited Kingdom"
+            },
+            "lineItems": [
+                {
+                    "uuid": "6b2b2527-446a-4418-8c53-417efdfff68a",
+                    "item": "Printer",
+                    "unitPrice": 50,
+                    "quantity": 1
+                },
+                {
+                    "uuid": "f8ab3d13-4f12-466e-bcab-49fd31111e73",
+                    "item": "Office notebook",
+                    "unitPrice": 0.5,
+                    "quantity": 10
+                },
+                {
+                    "uuid": "accc6aa8-6fb4-4afe-888d-e4ad1e4e63d0",
+                    "item": "Ballpoint pen",
+                    "unitPrice": 0.3,
+                    "quantity": 100
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "reference": "0003",
+            "status": "OVERDUE",
+            "taxPercentage": 20,
+            "recipient": {
+                "name": "John Doe",
+                "address": "10 Downing Street\nLondon\nUnited Kingdom"
+            },
+            "lineItems": [
+                {
+                    "uuid": "ad405f5d-36d3-4e77-9d05-0ec942d8aa42",
+                    "item": "Office chair",
+                    "unitPrice": 250,
+                    "quantity": 5
+                },
+                {
+                    "uuid": "8da0d0dc-e9db-4072-8fba-8108dc4004b7",
+                    "item": "Office desk",
+                    "unitPrice": 300,
+                    "quantity": 5
+                }
+            ]
+        }
+    ]
+}
